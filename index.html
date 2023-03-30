@@ -18,12 +18,12 @@
                 <div class="input-section p-5 shadow rounded border border-primary " id="input-section">
                     <h1 class="text-center text-success">BMI Calculator</h1>
                     <label class="fs-5">Weight (kg): </label>
-                    <input type="number" id="weight" name="weight" class="form-control">
+                    <input type="number" id="weightInput" name="weight" class="form-control">
                     <br><br>
                     <label class="fs-5">Height (cm): </label>
-                    <input type="number" id="height" name="height" class="form-control">
+                    <input type="number" id="heightInput" name="height" class="form-control">
                     <br><br>
-                    <button onclick="calculateBMI()" class="btn btn-primary shadow w-100 fs-4">Calculate BMI</button>
+                    <button onclick="calculateBtn()" class="btn btn-primary shadow w-100 fs-4" id="calculateBtn">Calculate BMI</button>
                     <br><br>
                     <p class="fs-1">Your BMI is: <span id="result"></span></p>
                     <p class="fs-3" id="status"></p>

@@ -1,9 +1,9 @@
 console.log(456132);
 
-function calculateBMI() {
+function calculateBtn() {
     // Get input values
-    var weight = document.getElementById("weight").value;
-    var height = document.getElementById("height").value;
+    var weight = document.getElementById("weightInput").value;
+    var height = document.getElementById("heightInput").value;
 
     // Convert height to meters
     height /= 100;
